@@ -1,0 +1,74 @@
+/** @format */
+html {
+  background: hsla(22, 100%, 78%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(22, 100%, 78%, 1) 0%,
+    hsla(2, 78%, 62%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(22, 100%, 78%, 1) 0%,
+    hsla(2, 78%, 62%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(22, 100%, 78%, 1) 0%,
+    hsla(2, 78%, 62%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFB88E", endColorstr="#EA5753", GradientType=1 );
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 40px auto;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 70px;
+}
+
+.hero-content {
+  margin: 0rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content p {
+  text-align: center;
+}
+
+.hero-content button {
+  margin: 40px 0;
+  padding: 1rem;
+  width: 15%;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.hero-content button:hover {
+  color: #d63031;
+  transition: 0.5s;
+}
